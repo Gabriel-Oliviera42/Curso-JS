@@ -7,6 +7,8 @@ for(var i = 0; i < 10; i++){
 
 console.log("Deu o break");
 
+var x = 10;
+
 while(x < 100) {
 
     x += 10;
@@ -15,5 +17,5 @@ while(x < 100) {
         continue;
     }
 
-    console.log("Testando continue" + x);
+    console.log("Testando continue: " + x);
 }
